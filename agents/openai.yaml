@@ -1,0 +1,13 @@
+interface:
+  display_name: 选题机会研究员
+  short_description: 结合用户需求、时间节点、平台热点与品牌造势，用数据筛选可执行选题
+  default_prompt: 使用 $research-content-opportunities，结合我的平台、产品和制作条件，调研近期值得做的选题，提供数据证据、品牌动作、具体切口与优先级。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
